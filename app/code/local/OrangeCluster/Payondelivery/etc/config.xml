@@ -1,0 +1,44 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <OrangeCluster_Payondelivery>
+            <version>0.1.0</version>
+        </OrangeCluster_Payondelivery>
+    </modules>
+    <global>
+        <models>
+            <orangecluster_payondelivery>
+                <class>OrangeCluster_Payondelivery_Model</class>
+                <resourceModel>orangecluster_payondelivery_resource</resourceModel>
+            </orangecluster_payondelivery>
+            <orangecluster_payondelivery_resource>
+                <class>OrangeCluster_Payondelivery_Model_Resource</class>
+            </orangecluster_payondelivery_resource>
+        </models>
+        <blocks>
+            <orangecluster_payondelivery>
+                <class>OrangeCluster_Payondelivery_Block</class>
+            </orangecluster_payondelivery>
+        </blocks>
+        <helpers>
+            <orangecluster_payondelivery>
+                <class>OrangeCluster_Payondelivery_Helper</class>
+            </orangecluster_payondelivery>
+        </helpers>
+    </global>
+
+    <default>
+        <payment>
+            <payondelivery>
+                <active>1</active>
+                <model>orangecluster_payondelivery/method_payondelivery</model>
+                <order_status>pending</order_status>
+                <title>Pay On Delivery</title>
+                <allowspecific>0</allowspecific>
+                <group>offline</group>
+            </payondelivery>
+        </payment>
+    </default>
+
+
+</config>

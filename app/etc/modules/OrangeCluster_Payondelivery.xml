@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <OrangeCluster_Payondelivery>
+            <active>true</active>
+            <codePool>local</codePool>
+        </OrangeCluster_Payondelivery>
+    </modules>
+</config>
