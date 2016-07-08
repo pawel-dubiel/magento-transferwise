@@ -21,7 +21,7 @@ class OrangeCluster_Payondelivery_Model_Method_Payondelivery extends Mage_Paymen
    *
    * @var string
    */
-  protected $_infoBlockType = 'payment/info';
+  protected $_infoBlockType = 'orangecluster_payondelivery/info';
   protected $_formBlockType = 'orangecluster_payondelivery/form_payondelivery';
 
 
