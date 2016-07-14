@@ -3,7 +3,7 @@
 /**
  * Block for Cash On Delivery payment method form
  */
-class OrangeCluster_Payondelivery_Block_Form_Payondelivery extends Mage_Payment_Block_Form
+class OrangeCluster_Transferwise_Block_Form_Transferwise extends Mage_Payment_Block_Form
 {
 
     /**
@@ -19,7 +19,7 @@ class OrangeCluster_Payondelivery_Block_Form_Payondelivery extends Mage_Payment_
     protected function _construct()
     {
         parent::_construct();
-        $this->setTemplate('orangecluster/payondelivery/instructions.phtml');
+        $this->setTemplate('orangecluster/transferwise/instructions.phtml');
     }
 
     /**

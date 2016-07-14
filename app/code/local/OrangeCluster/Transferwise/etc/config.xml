@@ -1,0 +1,44 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <OrangeCluster_Transferwise>
+            <version>0.1.0</version>
+        </OrangeCluster_Transferwise>
+    </modules>
+    <global>
+        <models>
+            <orangecluster_transferwise>
+                <class>OrangeCluster_Transferwise_Model</class>
+                <resourceModel>orangecluster_transferwise_resource</resourceModel>
+            </orangecluster_transferwise>
+            <orangecluster_transferwise_resource>
+                <class>OrangeCluster_Transferwise_Model_Resource</class>
+            </orangecluster_transferwise_resource>
+        </models>
+        <blocks>
+            <orangecluster_transferwise>
+                <class>OrangeCluster_Transferwise_Block</class>
+            </orangecluster_transferwise>
+        </blocks>
+        <helpers>
+            <orangecluster_transferwise>
+                <class>OrangeCluster_Transferwise_Helper</class>
+            </orangecluster_transferwise>
+        </helpers>
+    </global>
+
+    <default>
+        <payment>
+            <transferwise>
+                <active>1</active>
+                <model>orangecluster_transferwise/method_transferwise</model>
+                <order_status>pending</order_status>
+                <title>Transferwise</title>
+                <allowspecific>0</allowspecific>
+                <group>offline</group>
+            </transferwise>
+        </payment>
+    </default>
+
+
+</config>

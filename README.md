@@ -1,1 +1,3 @@
-Pay on Delivery is a simple payment module for Magento 1.9.x which displays instructions in the checkout.
+Transferwise is a payment module for Magento for transferwise
+
+Currently displays only instructions in the checkout

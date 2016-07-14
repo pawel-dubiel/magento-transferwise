@@ -1,6 +1,6 @@
 <?php
 
-class OrangeCluster_Payondelivery_Block_Info extends Mage_Payment_Block_Info {
+class OrangeCluster_Transferwise_Block_Info extends Mage_Payment_Block_Info {
 
 
 
@@ -9,7 +9,7 @@ class OrangeCluster_Payondelivery_Block_Info extends Mage_Payment_Block_Info {
   protected function _construct()
   {
     parent::_construct();
-    $this->setTemplate('orangecluster/payondelivery/info.phtml');
+    $this->setTemplate('orangecluster/transferwise/info.phtml');
   }
 
   /**

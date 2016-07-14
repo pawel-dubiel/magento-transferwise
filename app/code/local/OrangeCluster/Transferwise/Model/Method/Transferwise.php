@@ -1,16 +1,13 @@
 <?php
 
-/**
- * Pay on delivery payment method model
- */
-class OrangeCluster_Payondelivery_Model_Method_Payondelivery extends Mage_Payment_Model_Method_Abstract {
+gutclass OrangeCluster_Transferwise_Model_Method_Transferwise extends Mage_Payment_Model_Method_Abstract {
 
   /**
    * Payment method code
    *
    * @var string
    */
-    protected $_code = 'payondelivery';
+    protected $_code = 'transferwise';
     protected $_isInitializeNeeded = TRUE;
     protected $_canUseInternal = TRUE;
 
@@ -21,8 +18,8 @@ class OrangeCluster_Payondelivery_Model_Method_Payondelivery extends Mage_Paymen
    *
    * @var string
    */
-  protected $_infoBlockType = 'orangecluster_payondelivery/info';
-  protected $_formBlockType = 'orangecluster_payondelivery/form_payondelivery';
+  protected $_infoBlockType = 'orangecluster_transferwise/info';
+  protected $_formBlockType = 'orangecluster_transferwise/form_transferwise';
 
 
 
